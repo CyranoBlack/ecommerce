@@ -1,0 +1,18 @@
+main .home {}
+
+main .home .carousel {}
+main .home .products-offers {}
+main .home .products-offers .product {}
+main .home .products-offers .product .product-image {}
+main .home .products-offers .product .product-name {}
+main .home .products-offers .product p {}
+
+main .home .categorys {}
+main .home .category {}
+main .home .category .category-image {}
+main .home .category .category-name {}
+
+main .home .products-all {}
+main .home .products-all .product
+main .home .products-all .product .product-image {}
+main .home .products-all .product .product-name {}
