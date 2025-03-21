@@ -1,13 +1,50 @@
-header.main-header {}
+header.main-header {
+    display: flex;
+    background-color: var(--bluetech);
+    height: 45px;
+    padding: 0px;
+    position: sticky;
+    top: 0px;
+}
 
-header.main-header .logo{}
+header.main-header .top-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-header.main-header .logo {}
+header.main-header .top-header .logo {
+    position: relative;
+    width: 22%;
+    margin: 0px;
+    padding: 0px;
+    right: 10px;
+}
+header.main-header .top-header .search {
+    width: 184px;
+    margin: 0px  0px;
+}
 
-header.main-header .main-nav{}
+header.main-header .top-header .menu-burger {
+padding: 6px;
+
+margin: 0px  0px 0px 0px;
+
+font-size: 1.4rem;
+}
+
+header.main-header .main-nav{
+    display: none;
+    text-align: center;
+}
 
 header.main-header .main-nav ul{}
 
 header.main-header .main-nav ul li{}
 
 header.main-header .main-nav ul li a{}
+
+@media (min-width: 426) { /* tablet */
+
+}
+

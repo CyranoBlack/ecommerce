@@ -1,18 +1,30 @@
-main .home {}
+main.home {
+    padding: 10px;
+}
 
-main .home .carousel {}
-main .home .products-offers {}
-main .home .products-offers .product {}
-main .home .products-offers .product .product-image {}
-main .home .products-offers .product .product-name {}
-main .home .products-offers .product p {}
+main.home .carousel {}
+main.home .products-offers {margin: auto;border: 1px solid var(--greythis);border-radius: 5px;}
+main.home .products-offers .product {
+    display: inline-block;
+    width: calc(25% - 2px);
+    margin: 5px 10px;
+}
+main.home .products-offers .product .product-image {
+    width: 100%;
+}
+main.home .products-offers .product .product-name {}
+main.home .products-offers .product h3{}
 
-main .home .categorys {}
-main .home .category {}
-main .home .category .category-image {}
-main .home .category .category-name {}
+main.home .categorys {}
+main.home .category {}
+main.home .category .category-image {
+    width: 100%;
+}
+main.home .category .category-name {}
 
-main .home .products-all {}
-main .home .products-all .product
-main .home .products-all .product .product-image {}
-main .home .products-all .product .product-name {}
+main.home .products-all {}
+main.home .products-all .product {}
+main.home .products-all .product .product-image {
+    width: 100%;
+}
+main.home .products-all .product .product-name {}
