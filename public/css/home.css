@@ -1,12 +1,13 @@
 main.home {
-    padding: 10px;
+    padding: 15px;
 }
 
 main.home .carousel {}
 main.home .products-offers {
     margin: auto;
     border: 1px solid var(--greythis);
-    border-radius: 5px;}
+    border-radius: 5px;
+    }
 main.home .products-offers h2 {
 padding: 6px 6px 6px 12px;
 border-bottom: 1px solid var(--greythis);
