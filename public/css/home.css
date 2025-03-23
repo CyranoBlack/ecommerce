@@ -3,14 +3,21 @@ main.home {
 }
 
 main.home .carousel {}
-main.home .products-offers {margin: auto;border: 1px solid var(--greythis);border-radius: 5px;}
+main.home .products-offers {
+    margin: auto;
+    border: 1px solid var(--greythis);
+    border-radius: 5px;}
+main.home .products-offers h2 {
+padding: 6px 6px 6px 12px;
+border-bottom: 1px solid var(--greythis);
+}
 main.home .products-offers .product {
     display: inline-block;
-    width: calc(25% - 2px);
-    margin: 5px 10px;
+    width: calc(43% - 2px);
+    margin: 10px;
 }
 main.home .products-offers .product .product-image {
-    width: 100%;
+    width: 80%;
 }
 main.home .products-offers .product .product-name {}
 main.home .products-offers .product h3{}
