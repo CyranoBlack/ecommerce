@@ -79,9 +79,14 @@ main.home .products-new {
     margin: 0px 15px 10px 15px;
 }
 main.home .products-new .title-new {}
-main.home .products-new .title-new .h2-new {}
+main.home .products-new .title-new .h2-new {
+    padding: 6px 6px 6px 12px;
+    border-bottom: 1px solid var(--greythis);
+}
 main.home .products-new .content-products-new {}
-main.home .products-new .content-products-new .new-product {}
+main.home .products-new .content-products-new .new-product {
+    display: flex;
+}
 main.home .products-new .content-products-new .new-product .product-image-content {}
 main.home .products-new .content-products-new .new-product .product-image-content .product-image {
     width: 80%;
